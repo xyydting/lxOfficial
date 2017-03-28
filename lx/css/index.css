@@ -1,0 +1,36 @@
+body {
+    background: url("../img/index_bg.jpg") repeat-y;
+    background-size:cover;
+}
+
+
+.lx_content .col-md-3, .lx_content .col-lg-3, .lx_content .col-xs-6,.lx_content  .col-sm-6, .lx_content .col-md-6, .lx_content .col-lg-6, .lx_content .col-xs-12, .lx_content  .col-sm-12{
+	padding: 10px;
+	position: relative;
+}
+.lx_content{
+	margin-top: 40px;
+}
+.lx_content img{
+	width: 100%;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.3),-2px -2px 2px rgba(0,0,0,0.3);
+}
+.lx_content p,.lx_content span{
+	font-size: 18px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 7%;
+	display: block;
+	width: 80%;
+}
+.lx_content p{
+	top: 65%;
+}
+.lx_content span{
+	bottom: 7%;
+}
+@media screen and (max-width: 1024px){
+    .lx_content p,.lx_content span{
+		font-size: 14px;
+	}
+}

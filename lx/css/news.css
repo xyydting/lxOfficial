@@ -1,0 +1,125 @@
+body {
+	background: url(../img/news_bg.jpg) repeat;
+	font-family: "微软雅黑";
+	color: #000000;
+}
+
+
+/*内容*/
+.news_contents {
+	margin-top: 20px;
+}
+.news_content,.new_groomnews,.news_er{
+	background-color: #fdefd2;
+	border: solid 2px #C0C0C0;
+}
+.news_content{
+	padding-bottom: 50px;
+}
+.news_nav,.new_groomnews_title {
+	background: #efb37d;
+}
+.news_nav a {
+	line-height: 50px;
+	color: #000000;
+	font-size: 16px;
+	text-decoration: none;
+}
+.news_nav_r{
+	border-left: solid 1px #FFFFFF;
+}
+.news_nav_r a{
+	float: right;
+}
+.news_content_dao1,.news_content_dao2{
+	margin-top: 30px;
+}
+.news_content_dao1,.news_content_dao1 img,.news_content_dao1 p{
+	float: left;
+}
+.news_content_dao1{
+	margin-left: 15px;
+}
+.news_content_dao2{
+	margin-right: 15px;
+	float: right;
+}
+.news_content_dao1 p,.news_content_dao2 p{
+	font-size: 14px;
+	line-height: 30px;
+	margin-left: 5px;
+}
+.news_content h4{
+	font-weight: bold;
+	line-height: 35px;
+}
+.news_content .news_video,.news_content h5{
+	text-align: center;
+	margin-top: 20px;
+}
+.news_content>.news_video>img{
+	width: 70%;
+}
+.news_content h5{
+	font-size: 16px;
+}
+.news_content>p{
+	font-size: 14px;
+	text-indent: 2em;
+	padding: 0 20px;
+}
+/*右侧推荐*/
+.new_groomnews_title{
+	padding: 5px;
+}
+.new_groomnews_title img{
+	margin: 10px;
+	float: left;
+}
+.new_groomnews_title>h5{
+	line-height: 40px;
+	font-size: 16px;
+	text-align: left;!important
+}
+.media{
+	border-bottom: solid 1px #ffffff;
+	margin-top: 0;
+}
+.media:nth-child(3){
+	border-bottom:none;
+}
+.media .media-left{
+	width: 40%;
+}
+.media .media-body{
+	padding: 5px;
+}
+.media img{
+	width: 100%;
+}
+.media .media-body .media-heading{
+	line-height: 20px;
+}
+.media .media-body p{
+	color: #5E5E5E;
+}
+.news_er{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.news_er img{
+	width: 90%;
+	margin-left: 5%;
+}
+
+
+
+@media screen and (max-width:960px) {
+	.new_groomnews{
+		margin-top: 20px;
+	}
+	.news_nav .con-lg-6, .news_nav  .col-md-6 ,.news_nav .col-sm-6,.news_nav .col-xs-6{
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

@@ -1,0 +1,96 @@
+body {
+	background: #eeeeee;
+	font-family: "微软雅黑"
+}
+
+
+/*banner*/
+.lovefl_banner_pc{
+	height: 500px;
+    width: 100%;
+    display: block;
+    -moz-background-size: cover; /* 鑰佺増鏈殑 Firefox */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.lovefl_banner_m{
+	width: 100%;
+    display: block;
+}
+
+/*产品*/
+.lovefl_title {
+	margin:5% 0;
+	text-align: center;
+}
+
+.lovefl_title img {
+	width: 35%;
+}
+.lovefl_content{
+	margin-bottom: 20%;
+}
+.lovefl_content_tu {}
+
+.lovefl_content_tu img {
+	width: 95%;
+}
+
+.lovefl_content_text p {
+	color: #000000;
+	font-size: 16px;
+	margin-bottom: 15px;
+	line-height: 30px;
+	display: block;
+}
+
+.lovefl_content_text img:nth-child(0) {
+	width: 90%;
+}
+
+.lovefl_content_text span {
+	color: #000000;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 35px;
+	display: block;
+	margin-top: 15%;
+}
+
+.lovefl_content_er {
+	text-align: center;
+}
+
+.lovefl_content_er img {
+	margin-top: 85%;
+}
+
+.lovefl_content_er p {
+	color: #000000;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+@media screen and (max-width:960px) {
+	
+	.lovefl_title img {
+		width: 70%;
+	}
+	.lovefl_content_tu {
+		text-align: center;
+	}
+	.lovefl_content_tu img {
+		width: 80%;
+	}
+	.lovefl_content_text {
+		text-align: center;
+	}
+	
+	.lovefl_content_er {
+		text-align: center;
+	}
+	.lovefl_content_er img {
+		margin-top: 12%;
+	}
+}

@@ -1,0 +1,41 @@
+body {
+	height: 100%;
+	background: url(../img/lovelx_bg.jpg) repeat-y;
+	background-size: cover;
+	font-family: "微软雅黑"
+}
+
+
+/*内容*/
+
+.lovelx_title {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 20px;
+}
+
+.lovelx_content1 p {
+	text-align: center;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.lovelx_content2 {
+	margin-top: 5%;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.lovelx_content2 p {
+	font-size: 14px;
+	line-height: 25px;
+	margin-left: 0px;
+	text-align: left;
+	color: #000000;
+}
+
+@media screen and (max-width:960px) {
+	.lovelx_content2 p {
+		margin-left: 25px;
+	}
+}
